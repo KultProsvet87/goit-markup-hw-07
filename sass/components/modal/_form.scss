@@ -37,12 +37,11 @@
 
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
-    }
-
-    &__input:focus {
-        outline: none;
-        border: 1px solid $accent-color;
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:focus {
+            outline: none;
+            border: 1px solid $accent-color;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
     }
 
     &__input-icon {
@@ -67,13 +66,11 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:focus {
+            outline: none;
+            border: 1px solid $accent-color;
+        }
     }
-
-    &__comment:focus {
-        outline: none;
-        border: 1px solid $accent-color;
-    }
-
     &__licence {
         position: relative;
 
@@ -134,10 +131,9 @@
         letter-spacing: 0.06em;
         background-color: $accent-color;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    &__button:hover,
-    &__button:focus{
-        background-color: #188CE8;
+        &:hover,
+        &:focus{
+            background-color: #188CE8;
+        }
     }
 }

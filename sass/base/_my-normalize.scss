@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-text-color);
+    color: $main-text-color;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -23,5 +23,5 @@ h2 {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--second-text-color);
+    color: $second-text-color;
 }
